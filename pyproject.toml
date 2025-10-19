@@ -1,0 +1,17 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "ml-testing-toolkit"
+version = "0.1.0"
+description = "A toolkit for testing machine learning models"
+requires-python = ">=3.8"
+dependencies = [
+    "numpy",
+    "pandas",
+    "scikit-learn",
+    "pytest",
+    "hypothesis",
+    "pytest-cov"
+]
