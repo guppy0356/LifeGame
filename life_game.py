@@ -5,6 +5,10 @@ import random
 import time
 import os
 
+def say_hello():
+    """say hello"""
+    print("hello")
+
 class LifeGame:
     def __init__(self, width=40, height=20):
         self.width = width
@@ -20,5 +24,3 @@ class LifeGame:
 if __name__ == "__main__":
     game = LifeGame()
     game.set_random_state()
-
-diff --git a/tests/test_life_game.py b/tests/test_life_game.py
