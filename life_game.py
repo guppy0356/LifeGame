@@ -17,7 +17,7 @@ class LifeGame:
             for x in range(self.width):
                 self.grid[y][x] = random.choice([0, 1])
 
-    def hollo_world(self):
+    def hello_world(self):
         print("Hello, World!")
 
 if __name__ == "__main__":
